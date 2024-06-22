@@ -1,0 +1,73 @@
+<style>
+    .section--{{ section.id }} {
+        background-color: {{ section.settings.back_color }};
+    }
+
+    .section--{{ section.id }} * {
+        color: {{ section.settings.text_color }};
+    }
+</style>
+<div class="image-with-text section--{{ section.id }}">
+    <div class="container-1170">
+        <div class="iwt-content">
+            <div class="iwt-text-block">
+                {% if section.settings.header != blank %}
+                    <h2 class="custom-section-header">{{ section.settings.header }}</h2>
+                {% endif %}
+                {% if section.settings.description != blank %}
+                    <div class="custom-section-text">{{ section.settings.description }}</div>
+                {% endif %}
+            </div>
+            <div class="iwt-image-block">
+                <div class="iwt-image custom-image" style="aspect-ratio: {{ section.settings.image.aspect_ratio }};width: {{ section.settings.image.width }}px;">
+                    {{ section.settings.image | image_url: width: section.settings.image.width | image_tag }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Image With Text",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "textarea",
+            "id": "header",
+            "label": "Header",
+            "default": "Helping Everyone Enjoy & Celebrate Their Unique Beauty"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>Others see wigs; we see confidence-boosters, style-embracers, and positive-difference makers! We’re committed to making elegant, long-lasting, custom wigs that help you express yourself and renew your confidence—and all at affordable prices.</p>"
+        },
+        {
+            "type": "header",
+            "content": "Color"
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text Color",
+            "default": "#FFFFFF"
+        },
+        {
+            "type": "color",
+            "id": "back_color",
+            "label": "Background Color",
+            "default": "#1E1E1E"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Image With Text"
+        }
+    ]
+}
+{% endschema %}

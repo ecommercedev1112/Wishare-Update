@@ -1,0 +1,94 @@
+{
+  "sections": {
+    "image_slide_show_NchxfJ": {
+      "type": "image-slide-show",
+      "blocks": {
+        "slide_TetFyw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-Design---v2-1_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-Design---v2-1_1_1.png",
+            "heading": "About Us",
+            "description": "",
+            "btn_text": "",
+            "btn_link": "",
+            "content_position": "middle-left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_TetFyw"
+      ],
+      "settings": {
+      }
+    },
+    "image_with_text_BKhThV": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_Design_1_1.png",
+        "header": "Helping Everyone Enjoy & Celebrate Their Unique Beauty",
+        "description": "<p>Others see wigs; we see confidence-boosters, style-embracers, and positive-difference makers! We’re committed to making elegant, long-lasting, custom wigs that help you express yourself and renew your confidence—and all at affordable prices.<\/p>",
+        "text_color": "#ffffff",
+        "back_color": "#1e1e1e"
+      }
+    },
+    "rich_text_kK76GY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ntdaBa": {
+          "type": "heading",
+          "settings": {
+            "heading": "High quality, real hair for endless, on-trend styles",
+            "heading_size": 36,
+            "heading_size_mb": 28,
+            "heading_line_height": 1,
+            "heading_color": "#000"
+          }
+        },
+        "text_aQDAMW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You don’t follow trends—you create them. So do we, by developing innovative new techniques and offering a range of custom and ready-to-wear hairstyles made of 100% real hair.  No matter your style, we have a fit for you.<\/p>",
+            "text_size": 20,
+            "text_line_height": 1,
+            "margin_top_text": 16,
+            "text_color": "#1e1e1e",
+            "text_width": "820px"
+          }
+        },
+        "image_NdpHfL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About_image.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ntdaBa",
+        "text_aQDAMW",
+        "image_NdpHfL"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "mg_top_desktop": 80,
+        "mg_top_tablet": 80,
+        "mg_top_mobile": 65,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "rich_text_bg": "#fff",
+        "rich_text_bg_gradient": "",
+        "enable_column": false
+      }
+    }
+  },
+  "order": [
+    "image_slide_show_NchxfJ",
+    "image_with_text_BKhThV",
+    "rich_text_kK76GY"
+  ]
+}

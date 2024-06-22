@@ -1,0 +1,55 @@
+<div class="custom-recommend-products-section{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--fade-in{% endif %}">
+    <div class="container-1170">
+        {% if section.settings.header != blank %}
+            <h2 class="custom-section-header text-center">{{ section.settings.header }}</h2>
+        {% endif %}
+        {% if section.settings.description != blank %}
+            <div class="custom-section-text text-center">{{ section.settings.description }}</div>
+        {% endif %}
+        <div class="custom-recommend-products">
+            {% for card_product in section.settings.collection.products %}
+                {% unless product == card_product %}
+                    <div class="custom-recommend-product-item">
+                        <div class="crp-image custom-image">
+                            {{ card_product.featured_image | image_url: width: 350 | image_tag }}
+                            {{ card_product.metafields.custom.hover_image | image_url: width: 350 | image_tag }}
+                        </div>
+                        <div class="crp-info">
+                            <h2 class="crp-title">{{ card_product.title }}</h2>
+                            {%- render 'price',
+                                product: card_product,
+                                use_variant: false,
+                                price_class: 'price--medium'
+                            -%}
+                            <a class="button custom-button--secondary" href="{{ card_product.url }}">Shop Now</a>
+                        </div>
+                    </div>
+                {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Recommended Products",
+    "settings": [
+        {
+            "type": "text",
+            "id": "header",
+            "label": "Header",
+            "default": "You May Also Like"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>Explore other wig options</p>"
+        },
+        {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+        }
+    ]
+}
+{% endschema %}

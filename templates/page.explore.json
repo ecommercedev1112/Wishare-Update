@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "explore_featured_products_bUXT7N": {
+      "type": "explore-featured-products",
+      "blocks": {
+        "product_Kjpxm3": {
+          "type": "product",
+          "settings": {
+            "product": "200-density-water-wave-13x4-lace-front-wig"
+          }
+        },
+        "product_Q8nzFn": {
+          "type": "product",
+          "settings": {
+            "product": "200-density-kinky-straight-13x4-lace-front-wig"
+          }
+        },
+        "product_ijQbrm": {
+          "type": "product",
+          "settings": {
+            "product": "180-density-body-wave-13x4-lace-front-wig"
+          }
+        },
+        "product_kCPtxU": {
+          "type": "product",
+          "settings": {
+            "product": "180-density-jerry-curly-13x4-lace-front-wig"
+          }
+        }
+      },
+      "block_order": [
+        "product_Kjpxm3",
+        "product_Q8nzFn",
+        "product_ijQbrm",
+        "product_kCPtxU"
+      ],
+      "settings": {
+        "heading": "Explore Featured Products"
+      }
+    }
+  },
+  "order": [
+    "explore_featured_products_bUXT7N"
+  ]
+}

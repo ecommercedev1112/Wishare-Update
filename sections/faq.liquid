@@ -1,0 +1,55 @@
+<div class="faq-section section-block-{{section.id}}{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--slide-in{% endif %}" id="faq-section-{{section.id}}">
+    <div class="container-1770">
+        {% if section.settings.header != blank %}
+            <h2 class="custom-section-header text-center">{{ section.settings.header }}</h2>
+        {% endif %}
+        <div class="faq-list">
+            {% for block in section.blocks %}
+                <div class="faq-item {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
+                    <div class="faq-question">
+                        <h4 class="faq-question-text">{{ block.settings.question }}</h4>
+                    </div>
+                    <div class="faq-answer">
+                        {{ block.settings.answer }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Faq",
+    "settings": [
+        {
+            "type": "text",
+            "id": "header",
+            "label": "Header",
+            "default": "FAQ"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "faq",
+            "name": "Faq",
+            "settings": [
+                {
+                    "type": "textarea",
+                    "id": "question",
+                    "label": "Question"
+                },
+                {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "Answer"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Faq"
+        }
+    ]
+}
+{% endschema %}

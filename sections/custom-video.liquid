@@ -1,0 +1,70 @@
+<div class="custom-video-section section-block-{{section.id}}{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--slide-in{% endif %}" id="custom-video-section-{{section.id}}">
+    <div class="container-full">
+        <div class="custom-video-wrapper">
+            <div class="custom-video">
+                {% if section.settings.video_url != blank %}
+                    {%- if section.settings.video_url.type == 'youtube' -%}
+                        <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1&modestbranding=1&autohide=1&showinfo=0&controls=0&mute=1&autoplay=1&loop=1&playlist={{section.settings.video_url.id}}" class="js-youtube" allow="autoplay; loop; encrypted-media" allowfullscreen title="{{ section.settings.header | escape }}"></iframe>
+                    {%- else -%}
+                        <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}?autoplay=1&title=0&byline=0&portrait=0&mute=1&loop=1&autopause=0&playlist={{section.settings.video_url.id}}" class="js-vimeo" allow="autoplay; encrypted-media" webkitallowfullscreen mozallowfullscreen allowfullscreen title="{{ section.settings.header | escape }}"></iframe>
+                    {%- endif -%}
+                    {% elsif section.settings.video != blank %}
+                        {{
+                            section.settings.video | video_tag:
+                            image_size: '1100x',
+                            autoplay: true,
+                            loop: true,
+                            controls: false,
+                            muted: true
+                        }}
+                {% endif %}
+            </div>
+            <div class="custom-video-text-block">
+                {% if section.settings.header != blank %}
+                    <h2 class="custom-section-header text-center">{{ section.settings.header }}</h2>
+                {% endif %}
+                {% if section.settings.text != blank %}
+                    <div class="custom-section-text text-center">{{ section.settings.text }}</div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Custom Video",
+    "settings": [
+        {
+            "type": "textarea",
+            "id": "header",
+            "label": "Header",
+            "default": "Your Wig, Your Way"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>The sky’s the styling limit! Bob, wavy, honey blonde, black—there are no limitations as to how your wig can look!</p>"
+        },
+        {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
+        },
+        {
+            "type": "video_url",
+            "accept": [
+                "youtube",
+                "vimeo"
+            ],
+            "id": "video_url",
+            "label": "Video Url"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Custom Video"
+        }
+    ]
+}
+{% endschema %}

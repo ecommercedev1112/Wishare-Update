@@ -1,0 +1,17 @@
+{%- liquid
+    assign desc = product.description
+    assign fontsize_text = block.settings.fontsize_text
+    assign color_text = block.settings.color_text
+    assign word_number = block.settings.word_number
+-%}
+
+<div class="productView-desc halo-text-format" 
+    style="--color-text: {{ color_text }};
+    --fontsize-text: {{ fontsize_text | append: 'px' }}"
+>
+    {% if product.metafields.custom.short_description %}
+        {{ product.metafields.custom.short_description | metafield_tag }}
+    {% else %}
+        {{ product.description | strip_html | truncatewords: word_number }}
+    {% endif %}
+</div>

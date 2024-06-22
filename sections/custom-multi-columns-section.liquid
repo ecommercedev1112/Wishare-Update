@@ -1,0 +1,64 @@
+<div class="custom-multicoumns{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--fade-in{% endif %}">
+    <div class="container-1770">
+        {% if section.settings.header != blank %}
+            <h2 class="custom-section-header text-center">{{ section.settings.header }}</h2>
+        {% endif %}
+        <div class="custom-multicoumns-slider">
+            {% for block in section.blocks %}
+                <div class="custom-multicoumn-item">
+                    <div class="custom-multicoumn-image custom-image">
+                        <video autoplay muted loop playsinline="playsinline" preload="metadata">
+                            <source src="{{ block.settings.video.sources[1].url }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="custom-multicoumn-info">
+                        <h4 class="custom-multicoumn-title">{{ block.settings.header }}</h4>
+                        <div class="custom-multicoumn-description">{{ block.settings.description }}</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Custom Multi Columns",
+    "settings": [
+        {
+            "type": "text",
+            "id": "header",
+            "label": "Header",
+            "default": "How to Pur Your Wig On"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "column",
+            "name": "Column",
+            "settings": [
+                {
+                    "type": "video",
+                    "id": "video",
+                    "label": "Video"
+                },
+                {
+                    "type": "text",
+                    "id": "header",
+                    "label": "Header"
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description"
+                }
+            ],
+            "limit": 4
+        }
+    ],
+    "presets": [
+        {
+            "name": "Custom Multi Columns"
+        }
+    ]
+}
+{% endschema %}

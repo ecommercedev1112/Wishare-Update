@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-faqs-page",
+      "blocks": {
+        "f4d12560-a07c-4bd4-a934-2a8eddeaccc9": {
+          "type": "paragraph",
+          "settings": {
+            "title": "FAQ",
+            "question_1": "Q: Why didn’t I receive an Order Confirmation email?",
+            "answer_1": "If you do not receive the order confirmation message within a few minutes of your purchase, please check your Junk or Spam E-mail folder just in case the information was delivered there instead of your inbox. If your confirmation didn’t arrive to either place, please contact Customer Service at service@fitfashionwigs.com.",
+            "question_2": "Q: Are the colours on the site accurate?",
+            "answer_2": "The photos on the site are as accurate as possible. However, the actual colour of your order may vary slightly due to different monitor settings. Please contact our Customer Service team(Email: service@fitfashionwigs.com) with any questions.",
+            "question_3": "Q: How much does delivery cost?",
+            "answer_3": "Delivery(7-16 business days) is FREE on any order over $79 (before taxes) . If your order is under $79 and if you want faster express, the delivery charge is different that you can choose according your needs.",
+            "question_4": "Q: How do I track my order?",
+            "answer_4": "To view the status of your order, simply log in to your xctee.com account and click \"My Orders.\" Then, select the order number you want to review. Your Delivery confirmation will be emailed to you within 7 days of your scheduled delivery. If you have any questions, contact our Customer Service team at service@fitfashionwigs.com.",
+            "question_5": "Q: Can I cancel my order?",
+            "answer_5": "Orders can be cancelled as long as they haven't already been shipped. To cancel, please contact our Customer Service team(Email: service@fitfashionwigs.com). In some cases, there may be a restocking fee or delivery fee if the order is canceled after it has already been picked up for delivery.",
+            "question_6": "Q: Can I change item\/color \/length after an order is placed?",
+            "answer_6": "If you want to make a change, please get in touch with Customer Service(Email: service@fitfashionwigs.com) as soon as possible as our orders do ship quickly. If your items have been sent out, then you can’t change; if your items haven’t, we will help you to change.",
+            "question_7": "Q: How long will it take for my order to arrive?",
+            "answer_7": "The time for delivery is divided into two parts:\n\nProcessing time: Order verification, quality check, and packaging. All orders are sent to the fulfillment center for dispatch within 3-5 days after the order is placed.\nShipping time: This refers to the time it takes for items to be shipped from our fulfillment centerto the destination. International delivery usually takes about 10–20 business days. US orders are shipped by e-packet, which is a US Postal Service product. After processing and leaving from the warehouse,it usually takes 15- 20 days to arrive at their destination but may take longer from time to time.",
+            "question_8": "Q: What if I receive a wrong order or item?",
+            "answer_8": "If incorrect items are delivered or your order is incomplete, contact us and we will make it right. Customer Service: service@fitfashionwigs.com",
+            "question_9": "",
+            "answer_9": "",
+            "question_10": "",
+            "answer_10": ""
+          }
+        },
+        "15d9d2f4-1bdd-49c8-9a99-58246020f05c": {
+          "type": "paragraph",
+          "settings": {
+            "title": "Customer Service",
+            "question_1": "Q: How long does it take for a refund to show up on my credit card?",
+            "answer_1": "After we receive the returned goods, it takes 3-5 business days to finish transfer, and it needs 5-15 business days (not including weekends and holidays) to be credited back to your card. If you still don’t get it, please contact issuing bank for information first.  For assistance, contact Customer Service.",
+            "question_2": "Q: WHAT IF I DON’T WANT MY ITEM FOR ANY OTHER REASON THAN DAMAGED?\/CAN I RETURN SOMETHING IF I DON'T LIKE IT?",
+            "answer_2": "Not completely satisfied? We accept the return of item(s) within 30 days of delivery. Please note, customer is responsible for return shipping fees.\n\nNON-RETURNABLE ITEMS:\n\nCustom made or Special Order items\nItems without original conditions",
+            "question_3": "Q: What if my item arrived broken\/damaged?",
+            "answer_3": "If your item arrives damaged, please contact Customer Service(Email: service@fitfashionwigs.com) within 30 days and we will either replace the item or give partial refund.",
+            "question_4": "",
+            "answer_4": "",
+            "question_5": "",
+            "answer_5": "",
+            "question_6": "",
+            "answer_6": "",
+            "question_7": "",
+            "answer_7": "",
+            "question_8": "",
+            "answer_8": "",
+            "question_9": "",
+            "answer_9": "",
+            "question_10": "",
+            "answer_10": ""
+          }
+        }
+      },
+      "block_order": [
+        "f4d12560-a07c-4bd4-a934-2a8eddeaccc9",
+        "15d9d2f4-1bdd-49c8-9a99-58246020f05c"
+      ],
+      "settings": {
+        "show_breadcrumb": true,
+        "breadcrumb_alignment": "left",
+        "breadcrumb_bg": "",
+        "breadcrumb_gradient": "",
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "breadcrumb_gradient_mb": "",
+        "show_page_title": true,
+        "page_title_alignment": "left",
+        "container": "1170",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_faqs_filter": false,
+        "faqs_text": "",
+        "faqs_message_heading": "",
+        "faqs_message_text": "",
+        "message_method_link_1": "https:\/\/facebook.com",
+        "message_method_text_1": "Message Us",
+        "message_method_link_2": "https:\/\/gmail.com",
+        "message_method_text_2": "Contact Us",
+        "contact_content_text": "Unable to find satisfactory answers ?",
+        "contact_text": "Contact Support",
+        "contact_link": "shopify:\/\/pages\/contact-us-2",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#e93d29",
+        "contact_color_bg_hover": "#e93d29",
+        "contact_color_bg_gradient_hover": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

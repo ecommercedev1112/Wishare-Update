@@ -1,0 +1,469 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "2e8c7c14-a0ad-4930-a1d8-3def05310426": {
+          "type": "breadcrumb",
+          "disabled": true,
+          "settings": {
+            "breadcrumb_layout": "full",
+            "breadcrumb_alignment": "left",
+            "breadcrumb_bg": "rgba(0,0,0,0)",
+            "breadcrumb_gradient": "",
+            "breadcrumb_bg_mb": "#f6f6f6",
+            "breadcrumb_gradient_mb": "",
+            "breadcrumb_mg_top_desktop": 10,
+            "breadcrumb_mg_top_mobile": 0,
+            "breadcrumb_mg_bottom_desktop": 20,
+            "breadcrumb_mg_bottom_mobile": 0
+          }
+        },
+        "b0ea69b7-8a54-4a3c-9abd-0fcceeabaaa0": {
+          "type": "title",
+          "settings": {
+            "fontsize_text": 28,
+            "fontsize_text_mb": 24,
+            "color_title": "#333333",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "0e4ea696-4820-4c98-aaa6-806d41782a3d": {
+          "type": "meta",
+          "disabled": true,
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 14,
+            "show_review": true,
+            "show_sold_in": true,
+            "sold_in_number": "3,5,6,7,8,10,12,15",
+            "sold_in_hours": "10,15,16,17,18,20,25,35",
+            "color_text_sold_in": "#e95144"
+          }
+        },
+        "4f95b592-8369-4ab0-b30d-24e463fb6890": {
+          "type": "price",
+          "settings": {
+            "fontsize_text": 28,
+            "spacing_top": 12,
+            "spacing_bottom": 12
+          }
+        },
+        "4036f89b-c2c5-49a4-9d6b-2fd29ce7c46c": {
+          "type": "short_description",
+          "settings": {
+            "word_number": "25",
+            "fontsize_text": 16,
+            "color_text": "#000000",
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "4e59f24a-8859-4579-a80a-d70e6f1bf66b": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "show_vendor": true,
+            "show_sku": true,
+            "show_availability": true,
+            "show_product_type": true,
+            "stock_level_display": "none",
+            "enable_border_top": false,
+            "enable_border_bottom": false,
+            "color_border": "#e6e6e6",
+            "spacing_top": 0,
+            "spacing_bottom": 18
+          }
+        },
+        "custom_information_KVnED9": {
+          "type": "custom_information",
+          "disabled": true,
+          "settings": {
+            "icon": "",
+            "text": "300+ bought in past month",
+            "color_title": "#44a4e9",
+            "text_description": "",
+            "color_des": "#44a4e9",
+            "content_popup": "",
+            "fontsize_text": 14,
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "5d8b9ff9-6a1c-4850-a6c2-e6cdbb8b7f7c": {
+          "type": "hot_stock",
+          "disabled": true,
+          "settings": {
+            "hot_stock_style": "2",
+            "spacing_top": 0,
+            "spacing_bottom": 8
+          }
+        },
+        "bd3a641e-98d0-4da1-ab57-d5e4b0391995": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 20
+          }
+        },
+        "d98e243b-3682-495a-965a-1c7f7d460880": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_variant_image_group": true,
+            "enable_border_top": false,
+            "enable_border_bottom": false,
+            "color_border": "#e6e6e6",
+            "spacing_top": 16,
+            "spacing_bottom": 16
+          }
+        },
+        "d97e417a-941b-4a5d-bef3-a651adb918d8": {
+          "type": "variant_description",
+          "disabled": true,
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 12
+          }
+        },
+        "faa2b3e6-c0a1-4269-baa6-d2605efe4c05": {
+          "type": "quantity_selector",
+          "settings": {
+            "qty_style": "1",
+            "qty_layout": "2",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "04ea8843-f461-4f1d-8ea4-43f62fdfb21e": {
+          "type": "perks",
+          "disabled": true,
+          "settings": {
+            "spacing_top": 0,
+            "spacing_bottom": 22,
+            "show_size_chart": true,
+            "size_chart_type": "custom_image",
+            "size_chart_image_type": "jpg",
+            "show_compare_color": true,
+            "show_compare_color_drop_drap": true,
+            "compare_layout": "1"
+          }
+        },
+        "f1b31d90-1e43-4948-9fe3-97ba43f6fb34": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "atc_animation": "horizontal-shaking",
+            "atc_color": "#1a1a1a",
+            "atc_border_color": "#1a1a1a",
+            "atc_bg_color": "#ffffff",
+            "atc_bg_color_gradient": "",
+            "atc_color_hover": "#ffffff",
+            "atc_border_color_hover": "#1a1a1a",
+            "atc_bg_color_hover": "#1a1a1a",
+            "atc_bg_color_gradient_hover": "",
+            "bin_color": "#1a1a1a",
+            "bin_border_color": "rgba(0,0,0,0)",
+            "bin_bg_color": "rgba(0,0,0,0)",
+            "bin_bg_color_gradient": "",
+            "bin_color_hover": "#ffffff",
+            "bin_border_color_hover": "rgba(0,0,0,0)",
+            "bin_bg_color_hover": "rgba(0,0,0,0)",
+            "bin_bg_color_hover_gradient": ""
+          }
+        },
+        "683f2b15-db3b-4f63-8d0f-e688cc678581": {
+          "type": "customer_viewing",
+          "disabled": true,
+          "settings": {
+            "customer_viewing_number": "283, 100, 59, 11, 14, 185, 193, 165, 50, 38, 99, 112, 46, 10, 125, 200, 250, 18",
+            "customer_viewing_time": 5,
+            "spacing_top": 0,
+            "spacing_bottom": 22
+          }
+        },
+        "19de9abb-17c8-4d67-941d-b32706ed06fd": {
+          "type": "pickup_availability",
+          "disabled": true,
+          "settings": {
+            "show_pickup_availability": true,
+            "spacing_top": 0,
+            "spacing_bottom": 27
+          }
+        },
+        "10093fcf-2053-47e9-bedb-841bb0d046fa": {
+          "type": "trust_image",
+          "disabled": true,
+          "settings": {
+            "show_trust_image": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "bd066b80-c8e3-4f3e-8280-b27fbf6e9423": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "open_tab_mobile": true,
+            "title": "Description",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300
+          }
+        },
+        "3d9ea84d-5527-4bce-abe6-5debef3ec955": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "open_tab_mobile": false,
+            "title": "Shipping & Return",
+            "type": "all",
+            "content": "<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Shipping Information<\/strong><\/p>\n<p data-mce-fragment=\"1\">We ship worldwide.The shipping policy below applies to all countries. <\/p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Shipping Fee:<\/strong><\/p>\n<p data-mce-fragment=\"1\">Free Standard Shipping for orders over $79<\/p>\n<p data-mce-fragment=\"1\">Free Express Shipping for orders over $159<\/p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Or<\/strong><\/p>\n<div class=\"table-wraper-fix\" data-mce-fragment=\"1\">\n<div class=\"table-wraper-fix\" data-mce-fragment=\"1\">\n<table width=\"739\" data-mce-fragment=\"1\">\n<tbody data-mce-fragment=\"1\">\n<tr data-mce-fragment=\"1\">\n<td data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Shipping Method<\/strong><\/p>\n<\/td>\n<td data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Estimated Delivery Time<\/strong><\/p>\n<\/td>\n<td data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Shipping Fee<\/strong><\/p>\n<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Standard Shipping<\/strong><\/p>\n<\/td>\n<td data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">15 - 20 Days<\/strong><\/p>\n<\/td>\n<td data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">$6.99<\/strong><\/p>\n<\/td>\n<\/tr>\n<tr data-mce-fragment=\"1\">\n<td data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Express Shipping<\/strong><\/p>\n<\/td>\n<td data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">8 - 15 Days<\/strong><\/td>\n<td data-mce-fragment=\"1\">\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">$35.99<br data-mce-fragment=\"1\"><\/strong><\/p>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>\n<\/div>\n<p data-mce-fragment=\"1\"> <\/p>\n<p data-mce-fragment=\"1\"><img class=\"lazyloaded\" alt=\"\" src=\"https:\/\/img-va.myshopline.com\/image\/store\/2004402061\/1675451505620\/Picture1-480x480.png?w=480&h=121\" data-mce-fragment=\"1\" data-mce-src=\"https:\/\/img-va.myshopline.com\/image\/store\/2004402061\/1675451505620\/Picture1-480x480.png?w=480&h=121\"><\/p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Processing Time<\/strong><\/p>\n<p data-mce-fragment=\"1\">It might take 1-5 business days, excluding holidays, to process your order. You will receive a notification email with tracking information once your order has been shipped.<\/p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Estimated Delivery Time<\/strong><\/p>\n<p data-mce-fragment=\"1\">Standard Shipping: 15-31 Days (Including Process Time)<br data-mce-fragment=\"1\">Express Shipping: 10-15 Days (Including Process Time)<\/p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Taxes<\/strong><\/p>\n<p data-mce-fragment=\"1\">When applicable, you are responsible for paying import taxes and duties. For further details please contact your local customs office.<\/p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Cancellation<\/strong><\/p>\n<p data-mce-fragment=\"1\">A confirmation email will be sent to you once you complete the order and we will prepare your order immediately. If you need to change or cancel your order, please reach us at service@xctee.com as soon as possible and we will do our best to help.<\/p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">Track<\/strong><strong data-mce-fragment=\"1\">ing Information<\/strong><\/p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">Ifthe tracking informationshows that thepackage has been delivered to your order address, but you have not receivedit, please contact the courierdirectly to investigate. Wewill not be responsiblefor lost packageswith “delivered”tracking status.<\/li>\n<li data-mce-fragment=\"1\">After yourpackage is shipped (after 1-5 business days processing time), please allowanother 1-2 days for tracking information toupdate. Pleasefeel free to contact usif theestimated deliverydatehas passed, or if you have any concerns regarding the shipping status.<\/li>\n<li data-mce-fragment=\"1\">You can track your order from the footer menu page.<\/li>\n<\/ul>\n<p data-mce-fragment=\"1\"> <\/p>\n<p data-mce-fragment=\"1\"><strong data-mce-fragment=\"1\">The fitfashionwigs.com is NOT responsible for:<\/strong><\/p>\n<ul data-mce-fragment=\"1\">\n<li data-mce-fragment=\"1\">Ordersmarked“delivered”by thecourier.Pleasecontact your local Post Officeor the courier to obtain information regarding your package.<\/li>\n<li data-mce-fragment=\"1\">Wrong address. We will not be responsible if a package is shipped back to us due to an incorrect or undeliverable address.<\/li>\n<\/ul>",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300,
+            "product_custom_source": "dynamic",
+            "product_tab_key_metafield": ""
+          }
+        },
+        "faebbc78-6094-4bc0-a917-80dbfbf5ef3c": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "open_tab_mobile": false,
+            "title": "Review"
+          }
+        },
+        "19ab1d9f-74b2-4c76-bf2e-1bc749e5c2a3": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "show_share": true,
+            "share_layout": "2",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
+        "1180d91b-75f9-49d9-a9db-2b9f5a49408d": {
+          "type": "complementary_products",
+          "disabled": true,
+          "settings": {
+            "show_complementary_product": true,
+            "complementary_product_title": "Pairs well with",
+            "complementary_product_arrows": false,
+            "complementary_product_dots": true,
+            "complementary_product_layout": "2",
+            "complementary_product_limit_1": 2,
+            "complementary_product_limit_2": 3,
+            "complementary_product_object": "cover",
+            "spacing_top": 30,
+            "spacing_bottom": 0
+          }
+        },
+        "icon_with_text_block_eeYacj": {
+          "type": "icon_with_text_block",
+          "settings": {
+            "icon1": "<svg width=\"21\" height=\"20\" viewbox=\"0 0 21 20\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_511_12407)\">\n<path d=\"M5.17057 16.2503C6.09103 16.2503 6.83724 15.5041 6.83724 14.5837C6.83724 13.6632 6.09103 12.917 5.17057 12.917C4.2501 12.917 3.50391 13.6632 3.50391 14.5837C3.50391 15.5041 4.2501 16.2503 5.17057 16.2503Z\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M14.7526 16.2503C15.6731 16.2503 16.4193 15.5041 16.4193 14.5837C16.4193 13.6632 15.6731 12.917 14.7526 12.917C13.8321 12.917 13.0859 13.6632 13.0859 14.5837C13.0859 15.5041 13.8321 16.2503 14.7526 16.2503Z\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M3.50195 14.5836H1.00195V4.58356H13.0853V14.5836H6.83529\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M13.0859 14.5838V7.50047H16.6574L19.3359 11.0421V14.5838H16.7573\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_511_12407\">\n<rect width=\"20\" height=\"20\" fill=\"white\" transform=\"translate(0.169922)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "text1": "Free Shipping",
+            "icon2": "<svg width=\"20\" height=\"21\" viewbox=\"0 0 20 21\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M16.6667 9.66745H3.33333C2.8731 9.66745 2.5 10.0405 2.5 10.5008V18.0008C2.5 18.461 2.8731 18.8341 3.33333 18.8341H16.6667C17.1269 18.8341 17.5 18.461 17.5 18.0008V10.5008C17.5 10.0405 17.1269 9.66745 16.6667 9.66745Z\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M5.83203 9.66744V6.33411C5.83203 4.03292 7.69753 2.16744 9.9987 2.16744C12.2999 2.16744 14.1654 4.03292 14.1654 6.33411V9.66744\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M10 13.0004V15.5004\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "text2": "Secure Payment",
+            "icon3": "<svg width=\"21\" height=\"20\" viewbox=\"0 0 21 20\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M10.9177 1.66731L13.1065 3.264L15.8159 3.25884L16.6482 5.83719L18.8431 7.42552L18.001 10.0006L18.8431 12.5758L16.6482 14.1641L15.8159 16.7424L13.1065 16.7373L10.9177 18.334L8.72878 16.7373L6.01945 16.7424L5.18712 14.1641L2.99219 12.5758L3.83433 10.0006L2.99219 7.42552L5.18712 5.83719L6.01945 3.25884L8.72878 3.264L10.9177 1.66731Z\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M8.00195 10.0003L10.0853 12.0836L14.252 7.91697\" stroke=\"#F81A6A\" stroke-width=\"1.66667\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "text3": "Quality Assurance"
+          }
+        },
+        "accordion_QGXxrj": {
+          "type": "accordion",
+          "settings": {
+            "shipping": "<p>We ship worldwide.The shipping policy below applies to all countries. <\/p><p><\/p><p><strong>Shipping Fee: <\/strong><\/p><p>Free Standard Shipping for orders over $79<\/p><p>Free Express Shipping for orders over $159<\/p>",
+            "care_style_tips": "<p><strong>Care tips<\/strong><\/p><ul><li>Gentle Washing, use a sulfate-free, moisturizing shampoo. <\/li><li>Wash in lukewarm water, gently massaging the hair <\/li><li>Store the wig on a wig stand or mannequin head to keep its shape. <\/li><li>Cover with a hairnet or silk scarf to protect from dust. <\/li><li>Avoid sleeping in your wig to prevent tangling and matting. <\/li><\/ul><p><\/p><p><strong>Style tips<\/strong><\/p><ul><li> Use heat styling tools on a low setting to prevent damage. <\/li><li>Apply a heat protectant spray before using heat tools. <\/li><li>For a face-framing effect, trim the front pieces slightly shorter, blending them with the rest of the wig.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "2e8c7c14-a0ad-4930-a1d8-3def05310426",
+        "b0ea69b7-8a54-4a3c-9abd-0fcceeabaaa0",
+        "0e4ea696-4820-4c98-aaa6-806d41782a3d",
+        "4f95b592-8369-4ab0-b30d-24e463fb6890",
+        "4036f89b-c2c5-49a4-9d6b-2fd29ce7c46c",
+        "4e59f24a-8859-4579-a80a-d70e6f1bf66b",
+        "custom_information_KVnED9",
+        "5d8b9ff9-6a1c-4850-a6c2-e6cdbb8b7f7c",
+        "bd3a641e-98d0-4da1-ab57-d5e4b0391995",
+        "d98e243b-3682-495a-965a-1c7f7d460880",
+        "d97e417a-941b-4a5d-bef3-a651adb918d8",
+        "faa2b3e6-c0a1-4269-baa6-d2605efe4c05",
+        "04ea8843-f461-4f1d-8ea4-43f62fdfb21e",
+        "f1b31d90-1e43-4948-9fe3-97ba43f6fb34",
+        "683f2b15-db3b-4f63-8d0f-e688cc678581",
+        "19de9abb-17c8-4d67-941d-b32706ed06fd",
+        "10093fcf-2053-47e9-bedb-841bb0d046fa",
+        "bd066b80-c8e3-4f3e-8280-b27fbf6e9423",
+        "3d9ea84d-5527-4bce-abe6-5debef3ec955",
+        "faebbc78-6094-4bc0-a917-80dbfbf5ef3c",
+        "19ab1d9f-74b2-4c76-bf2e-1bc749e5c2a3",
+        "1180d91b-75f9-49d9-a9db-2b9f5a49408d",
+        "icon_with_text_block_eeYacj",
+        "accordion_QGXxrj"
+      ],
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "show_sticky_info": true,
+        "mg_top_desktop": 30,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 15,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 50,
+        "main_image_arrows_desktop": false,
+        "main_image_arrows_mobile": false,
+        "main_image_counter_mobile": false,
+        "main_image_enable_parallax_mb": false,
+        "main_image_show_zoom_icon_mb": false,
+        "main_image_position": "left",
+        "main_image_layout": "1",
+        "main_image_show_custom_cursor": false,
+        "count_color": "#191919",
+        "icon_color": "#000000",
+        "show_thumbnail_mobile": true,
+        "thumnail_layout": "3",
+        "thumbnail_to_show": 6,
+        "show_sidebar": false,
+        "show_sidebar_collapse": true,
+        "enable_sticky": true,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 16,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "product_image_ratio": "square",
+        "portrait_aspect_ratio": 148,
+        "zoomed_image": false,
+        "media_fit": "cover",
+        "product_image_popup": "fancybox",
+        "video_layout": "popup",
+        "show_badge": false,
+        "show_qty": true,
+        "show_subtotal": false,
+        "subtotal_style": "1",
+        "show_sticky_add_to_cart": false,
+        "show_sticky_vendor": false,
+        "sticky_atc_layout": "1",
+        "show_tab": false,
+        "tab_layout": "horizontal",
+        "tab_layout_mobile": "popup",
+        "icon_style_layout": "style_1",
+        "title_font_size": 18,
+        "title_font_size_mb": 16,
+        "font_weight_title": "600",
+        "title_text_transform": "none",
+        "title_padding_top_bottom": 15,
+        "tab_border_color": "#000000",
+        "tab_border_color_rgb": "",
+        "show_product_bundle": false,
+        "background_color": "#f8f8f8",
+        "padding_top": 30,
+        "padding_top_tablet": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom": 70,
+        "padding_bottom_tablet": 40,
+        "padding_bottom_mobile": 30,
+        "block_title": "Frequently Bought Together",
+        "block_title_align": "center",
+        "block_dots": true,
+        "block_arrows": false,
+        "product_style": "2",
+        "block_image_ratio": "adapt",
+        "bundle_discount": false,
+        "bundle_discount_text": "Get a [discount]% discount buying these products together",
+        "bundle_discount_text_color": "#232323",
+        "total_btn_color": "#ffffff",
+        "total_btn_border": "#232323",
+        "total_btn_bg": "#232323",
+        "total_btn_bg_gradient": "",
+        "total_btn_color_hover": "#232323",
+        "total_btn_border_hover": "#232323",
+        "total_btn_bg_hover": "#ffffff",
+        "total_btn_bg_gradient_hover": ""
+      }
+    },
+    "product-media-with-text": {
+      "type": "product-media-with-text",
+      "settings": {
+      }
+    },
+    "custom_multi_columns_section_GgC8Wn": {
+      "type": "custom-multi-columns-section",
+      "blocks": {
+        "column_GjKMyW": {
+          "type": "column",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Video1 How to 1.mp4",
+            "header": "Step 1: Prep",
+            "description": "<p>Pull your clean, tangle-free hair, close to your scalp. A low ponytail or braid secured with hair clips makes things go more smoothly! To help contain your hair and add to the realism, use a wig cap that matches either your hair or the wig.<\/p>"
+          }
+        },
+        "column_WkmE6F": {
+          "type": "column",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Video1 How to 2.mp4",
+            "header": "Step 2: Place",
+            "description": "<p>Holding the wig at the front edge, near the forehead. Then, slightly tilt your head forward and place the wig at your natural hairline. Slide the wig from front to back until you find the perfect position and it sits comfortably on your head.<\/p>"
+          }
+        },
+        "column_C4nfdk": {
+          "type": "column",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Video1 How to_3.mp4",
+            "header": "Step 3: Secure",
+            "description": "<p>Using the wig’s adjustable straps, or clips, secure it in place. Use the back Velcro tabs to ensure it stays in place; you want it snug but not too tight! Finally, trim the lace and glue the wig to your hairline.<\/p>"
+          }
+        },
+        "column_NpUC8z": {
+          "type": "column",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Video1 How to_4.mp4",
+            "header": "Step 4: Style",
+            "description": "<p>Gently brush or comb the wig to remove any tangles and help enhance its naturalness. Style however you please, and feel free to use products like hairspray or wax to help set it.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_GjKMyW",
+        "column_WkmE6F",
+        "column_C4nfdk",
+        "column_NpUC8z"
+      ],
+      "settings": {
+        "header": "How to Pur Your Wig On"
+      }
+    },
+    "real-review-section": {
+      "type": "real-review-section",
+      "settings": {
+        "header": "Real Reviews of Our Real Hair",
+        "description": "<p>Honest feedback from those who have reclaimed their confidence.<\/p>"
+      }
+    },
+    "custom-recommend-products": {
+      "type": "custom-recommend-products",
+      "settings": {
+        "header": "You May Also Like",
+        "description": "<p>Explore other wig options<\/p>",
+        "collection": "wishare"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-media-with-text",
+    "custom_multi_columns_section_GgC8Wn",
+    "real-review-section",
+    "custom-recommend-products"
+  ]
+}

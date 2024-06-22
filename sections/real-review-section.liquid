@@ -1,0 +1,107 @@
+<div class="real-review-section{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--fade-in{% endif %}">
+    <div class="container-1170">
+        {% if section.settings.header != blank %}
+            <h2 class="custom-section-header text-center">{{ section.settings.header }}</h2>
+        {% endif %}
+        {% if section.settings.description != blank %}
+            <div class="custom-section-text text-center">{{ section.settings.description }}</div>
+        {% endif %}
+        <div class="real-review-container">
+            <div class="real-review__text">
+                <h4 class="real-review__name">{{ product.metafields.custom.review_name.value[0] }}</h4>
+                {% for review_star in product.metafields.custom.review_star.value %}
+                    {% if forloop.first %}
+                        {% assign star = review_star %}
+                    {% endif %}
+                {% endfor %}
+                <div class="real-review__star">{{ star | image_url: width: 120 | image_tag }}</div>
+                <div class="real-review__description">{{ product.metafields.custom.review_description.value[0] }}</div>
+            </div>
+            <div class="real-review__image custom-image">
+                {% for review_image in product.metafields.custom.review_image.value %}
+                    {% if forloop.first %}
+                        {% assign r_image = review_image %}
+                    {% endif %}
+                {% endfor %}
+                {{ r_image | image_url: width: 450 | image_tag }}
+            </div>
+            <div class="real-review__video pmwt-media-inner">
+                {% assign media = product.metafields.custom.review_video.value %}
+                <video
+                    playsinline="playsinline"
+                    preload="metadata"
+                    loop
+                    poster="{{ media.preview_image | img_url: 'large' }}"
+                >
+                    <source src="{{ media.sources[1].url }}" type="video/mp4">
+                    <img src="{{ media.preview_image | img_url: 'large' }}">
+                </video>
+                <span class="video-play">
+                    <img src="https://cdn.shopify.com/s/files/1/0594/6762/8588/files/play.png?v=1717728640">                            
+                </span>
+                <span class="video-pause">
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                             viewBox="0 0 512 512" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M256,0C114.842,0,0,114.842,0,256s114.842,256,256,256s256-114.842,256-256S397.158,0,256,0z M256,465.455
+                                    c-115.493,0-209.455-93.961-209.455-209.455S140.507,46.545,256,46.545S465.455,140.507,465.455,256S371.493,465.455,256,465.455z
+                                    "/>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M318.061,139.636c-12.853,0-23.273,10.42-23.273,23.273v186.182c0,12.853,10.42,23.273,23.273,23.273
+                                    c12.853,0,23.273-10.42,23.273-23.273V162.909C341.333,150.056,330.913,139.636,318.061,139.636z"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M193.939,139.636c-12.853,0-23.273,10.42-23.273,23.273v186.182c0,12.853,10.42,23.273,23.273,23.273
+                                    c12.853,0,23.273-10.42,23.273-23.273V162.909C217.212,150.056,206.792,139.636,193.939,139.636z"/>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+            </div>
+            <div class="real-review__image custom-image">
+                {% for review_image in product.metafields.custom.review_image.value %}
+                    {% if forloop.last %}
+                        {% assign image = review_image %}
+                    {% endif %}
+                {% endfor %}
+                {{ image | image_url: width: 450 | image_tag }}
+            </div>
+            <div class="real-review__text">
+                <h4 class="real-review__name">{{ product.metafields.custom.review_name.value[1] }}</h4>
+                {% for review_star in product.metafields.custom.review_star.value %}
+                    {% if forloop.last and review_star != blank %}
+                        {% assign star = review_star %}
+                    {% endif %}
+                {% endfor %}
+                <div class="real-review__star">{{ star | image_url: width: 120 | image_tag }}</div>
+                <div class="real-review__description">{{ product.metafields.custom.review_description.value[1] }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Real Reviews Section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "header",
+            "label": "Header",
+            "default": "Real Reviews of Our Real Hair"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>Honest feedback from those who have reclaimed their confidence.</p>"
+        }
+    ]
+}
+{% endschema %}
